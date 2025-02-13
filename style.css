@@ -14,7 +14,7 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px repeat(4, 1fr);
 }
 
 .header {
@@ -53,3 +53,27 @@ body {
 .sidebar li {
     list-style-type: none;
 }
+
+/* Header section */
+.header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.search-container,
+.action-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 2px solid red;
+}
+
+/* .search {
+    padding: 10px;
+}
+
+.search-bar {
+    background-color: lightgray;
+    height: 30px;
+    width: 80%;
+    border-radius: 20px;
+} */
