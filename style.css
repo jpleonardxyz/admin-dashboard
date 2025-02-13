@@ -64,16 +64,20 @@ body {
 .action-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+
+/* Content section */
+.content {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.content > div {
     border: 2px solid red;
 }
 
-/* .search {
-    padding: 10px;
+.right-panel {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
 }
 
-.search-bar {
-    background-color: lightgray;
-    height: 30px;
-    width: 80%;
-    border-radius: 20px;
-} */
