@@ -58,13 +58,14 @@ body {
 .header {
     display: grid;
     grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 1fr;
 }
 
-.search-container,
+/* .search-container,
 .action-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
+} */
 
 /* Content section */
 .content {
