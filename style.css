@@ -164,6 +164,8 @@ button {
     flex: 1;
 }
 
+/* Project cards */
+
 .card {
     background-color: white;
     border-radius: 10px;
@@ -188,7 +190,9 @@ button {
     margin-left: 5px;
 }
 
-.announce-container, 
+/* right content section */
+
+.announcements, 
 .trending-container {
     display: flex;
     flex-direction: column;
@@ -204,6 +208,28 @@ button {
 .trending,
 .card-container {
     margin-top: 10px;
+}
+
+/* announcement section */
+
+.announce {
+    padding: 25px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 10px;
+}
+
+.announce >div:nth-child(n+2){
+    border-top: 1px solid gray;
+}
+
+.announcement {
+    padding: 10px;
+}
+
+.announcement > p {
+    color:gray;
+    padding-top: 10px;
 }
 
 
